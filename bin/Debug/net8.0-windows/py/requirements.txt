@@ -1,0 +1,6 @@
+python-Levenshtein
+pyperclip
+requests
+beautifulsoup4
+paddlepaddle
+paddleocr
