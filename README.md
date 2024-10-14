@@ -20,4 +20,4 @@
 
 ### 使用教程
 
-待添加
+[视频教程](https://www.bilibili.com/video/BV1gKmGY5EGy/)
