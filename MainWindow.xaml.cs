@@ -121,7 +121,7 @@ namespace 绝区零属性自动截图计算
         {
             Process.Start(new ProcessStartInfo
             {
-                FileName = "https://www.bilibili.com/video/BV1bs4peuEAu/",
+                FileName = "https://www.bilibili.com/video/BV1gKmGY5EGy/",
                 UseShellExecute = true // 使用系统默认浏览器打开链接  
             });
         }
@@ -208,6 +208,11 @@ namespace 绝区零属性自动截图计算
         private void 一键抓包事件(object sender, RoutedEventArgs e)
         {
             Process.Start("./py/米游社抓包.bat");
+        }
+
+        private void 依赖环境修复事件2(object sender, RoutedEventArgs e)
+        {
+            Process.Start("./py/海外安装依赖环境.bat");
         }
     }
 
@@ -1351,7 +1356,7 @@ namespace 绝区零属性自动截图计算
         static bool 基础属性截图()
         {
             操作.鼠标点击(1537, 1330);    //点击基础
-            操作.截取图片并保存(1383, 410, 2000, 490, "角色名");    //截图角色名
+            操作.截取图片并保存(1383, 410, 2000, 500, "角色名");    //截图角色名
             角色基础属性验证截图();
             int 计数器 = 1;
             int x = 1400;
@@ -1579,7 +1584,7 @@ namespace 绝区零属性自动截图计算
 
             // 发送输入事件
             SendInput((uint)inputs.Length, inputs, Marshal.SizeOf(typeof(INPUT)));
-            Thread.Sleep(500);
+            Thread.Sleep(750);
         }
 
         public static void 截取图片并保存(double X1, double Y1, double X2, double Y2, string 文件名)

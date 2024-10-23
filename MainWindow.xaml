@@ -14,7 +14,8 @@
             <MenuItem Header="关于" Click="关于事件"/>
             <MenuItem Header="打开存档目录" Click="打开存档目录事件"/>
             <MenuItem Header="打开截图目录" Click="打开截图目录事件"/>
-            <MenuItem Header="依赖环境修复" Click="依赖环境修复事件"/>
+            <MenuItem Header="依赖环境修复(清华源)" Click="依赖环境修复事件"/>
+            <MenuItem Header="依赖环境修复(海外用户点这里)" Click="依赖环境修复事件2"/>
             <MenuItem Header="更新属性库(新角色武器驱动盘识别前需更新)" Click="更新属性库事件"/>
             <MenuItem Header="视频教程" Click="视频教程事件"/>
         </ContextMenu>
@@ -27,7 +28,7 @@
             <Border Background="#FF1E2227" Height="30" VerticalAlignment="Top" MouseDown="拖动窗口">
                 <Grid>
                     <!-- 标题栏内容 -->
-                    <TextBlock Text="绝区零属性权重计算器 V2.0" Foreground="White" VerticalAlignment="Center" FontSize="16" HorizontalAlignment="Left" Margin="10,0,0,0"/>
+                    <TextBlock Text="绝区零属性权重计算器 V2.0.1" Foreground="White" VerticalAlignment="Center" FontSize="16" HorizontalAlignment="Left" Margin="10,0,0,0"/>
 
                     <!-- 右对齐按钮 -->
                     <StackPanel Orientation="Horizontal" HorizontalAlignment="Right" VerticalAlignment="Center">
